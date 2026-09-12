@@ -1,0 +1,10 @@
+pandas>=2.2
+numpy>=1.26
+openpyxl>=3.1
+yfinance>=0.2.40
+streamlit>=1.36
+streamlit-option-menu>=0.3.6
+pywebview>=5.0
+plotly>=5.22
+pytest>=8.0
+pyinstaller>=6.0
