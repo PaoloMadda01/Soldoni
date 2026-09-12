@@ -205,23 +205,18 @@ for a specific part of portfolio management.
 
 ## Quick start
 
-Download or clone the project, open its folder and run:
+Download or clone the project, extract the ZIP if needed, and double-click
+**Start Soldoni.cmd** in the project folder.
 
-```cmd
-setup.cmd
-```
+The launcher installs the required dependencies on first use. Once setup succeeds,
+later launches open the application directly. If setup fails, fix the reported
+problem and double-click the same launcher again.
 
-The script creates a `.venv` virtual environment and installs or updates every
-dependency listed in `requirements.txt`. If Python 3.13 is missing, it stops and
-shows where to download it.
+Python 3.13 must already be installed. If it is missing, the launcher shows where
+to download it.
 
-After setup, start the application with:
-
-```cmd
-.venv\Scripts\python.exe -m streamlit run soldoni/app/dashboard.py
-```
-
-Streamlit opens the application in the default web browser.
+Streamlit opens the application in the default web browser. Keep the terminal
+window open while using the application.
 
 ## Fineco import
 

@@ -31,7 +31,7 @@ if not defined PYTHON_EXE (
 
 if not defined PYTHON_EXE (
     echo ERROR: Python 3.13 was not found.
-    echo Install it from https://www.python.org/downloads/windows/ and run setup.cmd again.
+    echo Install it from https://www.python.org/downloads/windows/ and run Start Soldoni.cmd again.
     exit /b 1
 )
 
